@@ -13,4 +13,7 @@ spec:
     git: git@github.com:nv1-0/gitops-helm
     path: charts/podinfo
     ref: master
+    values:
+    image: nishant33/podinfo:0.4.11
+    replicaCount: 3
   
